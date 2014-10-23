@@ -1,5 +1,5 @@
-## This combination of functions 
-## functions do
+## These functions worked together to create a matrix, solve it's inverse, and return the result
+## either from stored cache or from performing the solve() function. 
 
 ## makeCacheMatrix creates a list of matrix methods that can cache store it's inverse. 
 makeCacheMatrix <- function(x = matrix()) {  #default is an empty matrix
